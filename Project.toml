@@ -3,6 +3,12 @@ uuid = "731484b0-eea1-11e8-3ab4-b9764b96d8b0"
 authors = ["sejinahn2 <43711842+sejinahn2@users.noreply.github.com>"]
 version = "0.1.0"
 
+[deps]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
