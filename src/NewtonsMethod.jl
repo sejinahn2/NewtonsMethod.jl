@@ -1,6 +1,6 @@
 module NewtonsMethod
 
-using ForwardDiff LinearAlgebra
+using ForwardDiff, LinearAlgebra
 
 
 D(g) = x -> ForwardDiff.derivative(g, x)
